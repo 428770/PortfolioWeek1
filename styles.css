@@ -1,10 +1,12 @@
 * {
     background-color: #f0dcfd;
+    color:#73359c;
 }
 
 header {
-    border: 50px, groove, #bb88de; 
+    border: 3vw, groove, #bb88de; 
     font-family: 'Courier New', Courier, monospace;
+    font-size: 1vw;
     text-align: center;
     color: #73359c;
     background-color: whitesmoke;
@@ -12,4 +14,20 @@ header {
 
 h1 {
     background-color: whitesmoke;
+}
+
+nav {
+    height: 1.2vw;
+    width: 1.0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1vw;
 }
