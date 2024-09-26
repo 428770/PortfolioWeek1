@@ -1,33 +1,59 @@
 * {
-    background-color: #f0dcfd;
-    color:#73359c;
+    background-color: black;
+    color: rgb(139, 227, 142);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 header {
-    border: 3vw, groove, #bb88de; 
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1vw;
-    text-align: center;
-    color: #73359c;
-    background-color: whitesmoke;
+    font-size: 30px;
+    text-align: left;
 }
 
 h1 {
-    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
 }
 
 nav {
-    height: 1.2vw;
-    width: 1.0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1vw;
-    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: left;
+    font-size: 20px;
+    text-indent: 10%;
+    font-weight: bold;
 }
 
-.container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1vw;
+section {
+    text-align: center;
+    border: 1px, solid, #23ed7e;
+}
+
+.grid-container {
+    display: grid;
+    gap: 1vw;
+    font-size: 15px;
+    grid-auto-columns: 24%;
+    text-transform: lowercase;
+}
+
+.grid-item1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.grid-item2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.grid-item3 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+footer {
+    font-size: 10px;
+    font-style: italic;
+    text-align: center;
 }
